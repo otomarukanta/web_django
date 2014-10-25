@@ -1,0 +1,5 @@
+<form action="" method="post">
+    {% csrf_token %}
+    This zip code ({{ zipcode_form.number }}) is {{ state }}.
+    <input type="submit" value="Check" />
+</form>
